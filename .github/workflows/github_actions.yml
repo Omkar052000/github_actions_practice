@@ -24,7 +24,7 @@ jobs:
 
     - uses: mr-smithers-excellent/docker-build-push@v6
       with:
-       image: docker-hub-repo/image-name
+       image: omkarpathak05/github_actions_practice
        registry: docker.io
        username: ${{ secrets.DOCKER_USERNAME }}
        password: ${{ secrets.DOCKER_PASSWORD }}
